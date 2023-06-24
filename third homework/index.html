@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>lesson 3</title>
-</head>
-<body>
-    <div class="header_wrapper">
-        <header>
-            <nav>
-                <p><a href="#"><img class="header_logo" src="./img/header logo.png" alt="логотип компании"></a></p>
-                <a class="navigation_link_active">Home</a>
-                <a class="navigation_link">About us</a>
-                <a class="navigation_link">Services</a>
-                <a class="navigation_link">Features</a>
-                <a class="navigation_link">Team</a>
-                <a class="navigation_link">Blog</a>
-                <a class="navigation_link">Contact</a>
-            </nav>
-        </header>
-    </div>
-    <main>
-        <div class="content_wrapper">
-            <div class="content_block">
-                <h1 class="content_title">SEO & Digital Marketing For Your Website.</h1>
-                <p class="content_description">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                <div class="content_buttons">
-                    <button class="content_button_chosen">Start Now</button>
-                    <button class="content_button">Watch Video</button>
-                </div>
-            </div>
-            <img src="./img/main img.png" alt="main img">
-        </div>
-    </main>
-    <footer>
-        <div class="logos">
-            <img src="./img/Brand logo.png" alt="Brand logos">
-        </div>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>lesson 3</title>
+	</head>
+	<body>
+		<header>
+			<div class="navigation container">
+				<!-- делаем 2 класса -->
+				<a href="#"><img class="header_logo" src="./img/header logo.png" alt="логотип компании" /></a>
+				<nav>
+					<a class="navigation_link_active">Home</a>
+					<a class="navigation_link">About us</a>
+					<a class="navigation_link">Services</a>
+					<a class="navigation_link">Features</a>
+					<a class="navigation_link">Team</a>
+					<a class="navigation_link">Blog</a>
+					<a class="navigation_link">Contact</a>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="content_wrapper container">
+				<!-- добавляем контейнер -->
+				<div class="content_block">
+					<h1 class="content_title">SEO & Digital Marketing For Your Website.</h1>
+					<p class="content_description">
+						Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.
+					</p>
+					<div class="content_buttons">
+						<button class="content_button_chosen">Start Now</button>
+						<button class="content_button">Watch Video</button>
+					</div>
+				</div>
+				<img src="./img/main img.png" alt="main img" />
+			</div>
+		</main>
+		<footer>
+			<div class="logos container">
+				<!-- добавляем контейнер и логотипы должны быть не одной картинкой -->
+				<img src="./img/Brand logo.png" alt="Brand logos" />
+			</div>
+		</footer>
+	</body>
 </html>

@@ -11,11 +11,68 @@
 	src: url(./fonts/Gilroy-Medium.woff2);
 }
 
-
 * {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+}
+
+/* стили контейнера */
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* тут была оечатка */
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 533px;
+	/* height: 17px;
+	top: -356px;
+	left: 71px;
+	border: 1px; */
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* width: 1170px; */
+	/* height: 40px;
+	top: -367px;
+	left: -566px;
+	border: 1px; */
+}
+
+/* .header_logo{
+	width: 137px;
+	height: 40px;
+	margin-left: 375px;
+	margin-top: 40px;
+} */
+
+header {
+	/* padding: 39px 0;
+	margin-bottom: 160px; */
+	margin-top: 40px;
+	margin-bottom: 84px;
+}
+
+.navigation_link {
+	font-family: 'Gilroy-SemiBold';
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #000000;
+}
+
+.navigation_link_active {
+	font-family: 'Gilroy-SemiBold';
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #f25822;
 }
 
 body {
@@ -27,54 +84,29 @@ body {
 	font-weight: 600;
 }
 
-.header_logo{
-	width: 137px;
-	height: 40px;
-	
-}
 img {
 	max-width: 100%;
 	display: block;
 }
 
-
-header {
-	padding: 39px 0;
-	margin-bottom: 160px;
-}
-
-.navigation_link {
-	width: 533px;
-	height: 17px;
-
-	font-family: 'Gilroy-SemiBold';
-	font-size: 14px;
-	line-height: 16px;
-
-color: #000000;
-}
-
-.navigation_link_active{
-	font-family: 'Gilroy-SemiBold';
-	font-size: 14px;
-	line-height: 16px;
-
-	color: #F25822;
-	
-}
-
-
 main {
-	margin-bottom: 197px;
+	margin-bottom: 162px;
 }
 
-.content__wrapper {
+/* тут опечатка */
+.content_wrapper {
+	display: flex;
+	/* justify-content: center; */
+	justify-content: space-between;
 }
 
 .content-block {
+	width: 522px;
+	/* height: 374px; */
+	/* margin-top: -243px;
+	margin-left: -568px;
+	border-radius: 50px; */
 }
-
-
 
 .content_title {
 	width: 522px;
@@ -87,7 +119,7 @@ main {
 
 .content_description {
 	width: 466px;
-	height: 48px;
+	/* height: 48px; */
 
 	font-family: 'Gilroy-Medium';
 	font-size: 20px;
@@ -98,6 +130,8 @@ main {
 }
 
 .content_buttons {
+	display: flex;
+	gap: 70px;
 }
 
 .content_button_chosen {
@@ -107,9 +141,9 @@ main {
 	font-family: 'Gilroy-Bold';
 	font-size: 15px;
 	line-height: 18px;
-	color: #FFFFFF;
+	color: #ffffff;
 
-	background: #F25822;
+	background: #f25822;
 	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
 	border-radius: 50px;
 }
@@ -124,7 +158,7 @@ main {
 	font-size: 15px;
 	line-height: 18px;
 
-	color: #AAAAAA;
+	color: #aaaaaa;
 }
 
 footer {
