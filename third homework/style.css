@@ -11,6 +11,11 @@
 	src: url(./fonts/Gilroy-Medium.woff2);
 }
 
+@font-face {
+	font-family: 'Gilroy-Regular' ;
+	src: url(./fonts/Gilroy-Regular.woff2);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -90,7 +95,7 @@ img {
 }
 
 main {
-	margin-bottom: 162px;
+	
 }
 
 /* тут опечатка */
@@ -98,6 +103,7 @@ main {
 	display: flex;
 	/* justify-content: center; */
 	justify-content: space-between;
+	margin-bottom: 162px;
 }
 
 .content-block {
@@ -144,7 +150,7 @@ main {
 	color: #ffffff;
 
 	background: #f25822;
-	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	border: none;
 	border-radius: 50px;
 }
 
@@ -161,8 +167,133 @@ main {
 	color: #aaaaaa;
 }
 
-footer {
+article{
+	margin-bottom: 100px;
 }
 
 .logos {
+	display: flex;
+	justify-content: space-between;
 }
+
+.features{
+	display: flex;
+	justify-content: space-around;
+}
+
+.feature_card{
+width: 370px;
+height: 291px;
+padding: 40px 30px 25px 30px;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.card_title{
+font-family: 'Gilroy-Bold';
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0em;
+
+}
+
+.card_description{
+color: #666;
+font-size: 15px;
+font-family: 'Gilroy-Regular';
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+.rm_button{
+border: none;
+background: none;
+outline: none;
+cursor: pointer;
+
+font-family: Gilroy-Bold;
+font-size: 11px;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.shadowbox{
+background: #FFF;
+box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.services_wrapper{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 162px;
+	background-color: #FAFAFA;
+}
+
+.services_title{
+font-family: 'Gilroy-Bold';
+font-size: 45px;
+line-height: 53px;
+letter-spacing: 0em;
+padding-top: 92px;
+text-align: center;
+}
+
+.services_description{
+color: #666;
+width: 682px;
+text-align: center;
+font-size: 16px;
+font-family: Gilroy-Regular;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+padding-top: 19px;
+margin: 0 auto;
+padding-bottom: 54px;
+}
+
+.services_cards{
+	display: flex;
+	justify-content: space-around;
+}
+
+.services_card{
+	width: 370px;
+	height: 549px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 30px;
+	flex-shrink: 0;
+	padding: 0px 30px 50px 30px;
+	border-radius: 1.5px;
+	text-align: center;
+	background: #ffffff;
+}
+
+.service_button {
+	width: 150px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Gilroy-Bold';
+	font-size: 13px;
+	line-height: 19.5px;
+	color: #ffffff;
+	margin: 0 auto;
+	background: #f25822;
+	border: none;
+	border-radius: 50px;
+}
+
+.shadowbox_services{
+	background: #FFF;
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
