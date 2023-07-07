@@ -159,10 +159,7 @@ main {
 	background: none;
 	outline: none;
 	cursor: pointer;
-
-	font-family: 'Gilroy-Bold';
-	font-size: 15px;
-	line-height: 18px;
+	color: #F26376;
 
 	color: #aaaaaa;
 }
@@ -189,6 +186,7 @@ border-radius: 15px;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
+margin-bottom: 100px;
 }
 
 .card_title{
@@ -259,7 +257,7 @@ padding-bottom: 54px;
 
 .services_cards{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .services_card{
